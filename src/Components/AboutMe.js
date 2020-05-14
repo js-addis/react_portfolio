@@ -80,6 +80,15 @@ export default function AboutMe() {
             do is link your project's github repo, push changes, and boom... its hosted!'
             </h2>
             <Divider className={classes.Divider}/>
+            <h1 className={classes.heading}>About Me</h1>
+            <Divider className={classes.Divider}/>
+            <h2 className={classes.Typography}>I am a 23 year old software enthusiast living in Pittsburgh's North Side. Lately, I've been couped up in my house, working on my
+            career, building projects and taking online courses. I rent a beautiful four bedroom house and have roomates, all of whom have artistic talents, so my house is
+            full of crazy art! I have a weiner dog named Helmut, and a partner of 1.5 years. I am looking for a career I can be proud of, something that will really motivate me
+            beyond making money. Money is important of course, and I want to have nice things but I am moreso looking for a team of people that both do interesting work, and 
+            are as enthusiastic about what they do as I am. I want to be appreciated and utilized to my fullest potential, which I believe is significant. 
+            </h2>
+            <Divider className={classes.Divider}/>
             <h1 className={classes.heading}>LONGFORM BIOGRAPHY!</h1>
             <Divider className={classes.Divider}/>
             <h2 className={classes.Typography}>Born in Charleroi, PA and raised by my grandmother, my childhood was filled with structure and discipline.
