@@ -37,6 +37,15 @@ export default function Projects() {
             <h3 className={classes.h3}>Click a project for more info:</h3>
             <ImgMediaCard
                 image={<Logo/>}
+                projectName={'Flutter App (new)'}
+                description={'Currently learning Flutter, a Dart language framework for building cross-platform mobile apps that are also websites! I recently started working with someone remotely, and he wants to use Flutter instead of React for some/most of his apps. I agree and believe this framework by Google has ALOT of potential!'}
+                action1={'https://github.com/js-addis/flutter_app'}
+                action2={null}
+                modalContent={<Logo/>}
+                url={"https://github.com/js-addis/flutter_app"}
+            ></ImgMediaCard>
+            <ImgMediaCard
+                image={<Logo/>}
                 projectName={'React Native App (new)'}
                 description={'Currently building a react-native mobile app through a course with LinkedIn Learning. I have the node react server running locally and connecting to it with repo, viewing my changes on my own android phone. This has been very fun and educational for me.'}
                 action1={'https://github.com/js-addis/react-native-app'}
@@ -49,7 +58,7 @@ export default function Projects() {
                 image={<Logo/>}
                 projectName={'React Portfolio (new)'}
                 description={'My portfolio, built with react, MUI, express, node and mongo and hosted on AWS amplify. This is my most recent project, and I learned a good bit about MUI and UI development in the process of making it. I will be creating a new page for this website that will contain my custom Material UI components code, including the side + top navigation. The logos and images for the site were created with Canva.com, a great FREE tool for making logos, gifs and small pictures.'}
-                action1={'https://github.com/js-addis/addis_portfolio'}
+                action1={'https://github.com/js-addis/react_portfolio'}
                 action2={null}
                 modalContent={<Logo/>}
                 url={"https://github.com/js-addis/react_portfolio"}
