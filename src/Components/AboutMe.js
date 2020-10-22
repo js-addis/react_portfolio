@@ -80,6 +80,13 @@ export default function AboutMe() {
             do is link your project's github repo, push changes, and boom... its hosted!'
             </h2>
             <Divider className={classes.Divider}/>
+            <h1 className={classes.heading}>Arsenal</h1>
+            <Divider className={classes.Divider}/>
+            <h2 className={classes.Typography}>
+                Stats: 
+            </h2>
+            <Divider className={classes.Divider}/>
+            <Divider className={classes.Divider}/>
             <h1 className={classes.heading}>About Me</h1>
             <Divider className={classes.Divider}/>
             <h2 className={classes.Typography}>I am a 23 year old software enthusiast living in Pittsburgh's North Side. Lately, I've been couped up in my house, working on my
