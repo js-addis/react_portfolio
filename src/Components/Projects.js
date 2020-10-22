@@ -52,7 +52,7 @@ export default function Projects() {
                 action1={'https://github.com/js-addis/addis_portfolio'}
                 action2={null}
                 modalContent={<Logo/>}
-                url={"https://github.com/js-addis/addis_portfolio"}
+                url={"https://github.com/js-addis/react_portfolio"}
             >
             </ImgMediaCard>
             <ImgMediaCard
