@@ -1,4 +1,6 @@
 import React from 'react';
+import ArsenalObject from './ArsenalObject';
+import ArsenalGrid from './ArsenalGrid';
 import { makeStyles, Container, Grid, Typography, CardMedia, Divider, Paper } from '@material-ui/core';
 
 const useStyles = makeStyles((theme) => ({
@@ -62,7 +64,7 @@ const useStyles = makeStyles((theme) => ({
     },
     aTag: {
         color: '#f29898'
-    }
+    },
 }));
 
 export default function AboutMe() {
@@ -77,15 +79,14 @@ export default function AboutMe() {
             It's got a big library of customizable components that I use to build user interfaces
             rather quickly and painlessly. You see I am not really a graphic design guy, but I love doing UI/UX work and Material UI is the best framework I've ever used. The back end of this web-app uses <a className={classes.aTag} target="_blank" href="http://expressjs.com/">Express</a> and <a className={classes.aTag} target="_blank" href="http://nodejs.org">Node</a> and is hosted with
             AWS(Amazon Web Service)'s <a className={classes.aTag} target="_blank" href="https://aws.amazon.com/amplify/">Amplify</a>. Amplify is great for quickly and cheaply hosting full-stack web apps because all you've got to 
-            do is link your project's github repo, push changes, and boom... its hosted!'
+            do is link your project's github repo, push changes, and... its hosted!'
             </h2>
             <Divider className={classes.Divider}/>
-            <h1 className={classes.heading}>Arsenal</h1>
+            <h1 className={classes.heading}>My Arsenal</h1>
             <Divider className={classes.Divider}/>
-            <h2 className={classes.Typography}>
-                Stats: 
-            </h2>
-            <Divider className={classes.Divider}/>
+              
+            <ArsenalGrid/>
+            
             <Divider className={classes.Divider}/>
             <h1 className={classes.heading}>About Me</h1>
             <Divider className={classes.Divider}/>
@@ -110,9 +111,7 @@ export default function AboutMe() {
             more she tried, the more I resented it. 
             </h2>
             <h2 className={classes.Typography}></h2>
-            <Divider className={classes.Divider}></Divider>
-            <h1 className={classes.heading}>The Middle Days:</h1>
-            <Divider className={classes.Divider}></Divider>
+            
             <h2 className={classes.Typography}>In high school everything changed, I became a total nerd! Around 9th grade, my mother
             regained custody of us kids. Almost like a switch had been flipped, I made a 180 into a
             respectable student. That year I even got the Rising Star award for improving my GPA from a 2.0 to a 3.5. In the following years,
