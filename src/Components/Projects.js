@@ -62,7 +62,7 @@ export default function Projects() {
                 action1={'https://github.com/js-addis/chinese_grammar_game'}
                 action2={null}
                 modalContent={<img src="pics/grammar_game.png"></img>}
-                url={"http://www.jacobaddis.com/chinese_grammar_game/index.php"}
+                url={"https://github.com/js-addis/chinese_grammar_game"}
             >
             </ImgMediaCard>
             <ImgMediaCard
@@ -72,7 +72,7 @@ export default function Projects() {
                 action1={'https://github.com/js-addis/timestamp_app'}
                 action2={null}
                 modalContent={<img src="pics/file_access.png"></img>}
-                url={"http://www.jacobaddis.com/timestamp_app/index.php"}
+                url={"https://github.com/js-addis/timestamp_app"}
             >
             </ImgMediaCard>
             <ImgMediaCard
