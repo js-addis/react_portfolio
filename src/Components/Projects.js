@@ -37,6 +37,15 @@ export default function Projects() {
             <h3 className={classes.h3}>Click a project for more info:</h3>
             <ImgMediaCard
                 image={<Logo/>}
+                projectName={'Barbersharp App (new)'}
+                description={'Building a Flutter App for making barbershop appointments. This is my first project as a part of my new Boss Ansen Ervins team. The app will ultimately be used to create a template app that can be easily customized for multiple barbershop companies.'}
+                action1={'https://github.com/js-addis/barbersharp'}
+                action2={null}
+                modalContent={<Logo/>}
+                url={"https://github.com/js-addis/barbersharp"}
+            ></ImgMediaCard>
+            <ImgMediaCard
+                image={<Logo/>}
                 projectName={'Flutter App (new)'}
                 description={'Currently learning Flutter, a Dart language framework for building cross-platform mobile apps that are also websites! I recently started working with someone remotely, and he wants to use Flutter instead of React for some/most of his apps. I agree and believe this framework by Google has ALOT of potential!'}
                 action1={'https://github.com/js-addis/flutter_app'}
