@@ -1,7 +1,5 @@
 import React from 'react';
-import ArsenalObject from './ArsenalObject';
-import ArsenalGrid from './ArsenalGrid';
-import { makeStyles, Container, Grid, Typography, CardMedia, Divider, Paper } from '@material-ui/core';
+import { makeStyles } from '@material-ui/core';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -70,7 +68,9 @@ const useStyles = makeStyles((theme) => ({
 export default function AboutMe() {
     const classes = useStyles();
     return (
+        
         <div className={classes.root}>
+            {/* 
             <h1 className={classes.mainHeading}>WELCOME TO MY DOMAIN!</h1>
             <h2 className={classes.center}>View it on your phone too, it's quite responsive.</h2>
             <Divider className={classes.Divider}/>
@@ -86,7 +86,7 @@ export default function AboutMe() {
             <Divider className={classes.Divider}/>
               
             <ArsenalGrid/>
-            
+        
             <Divider className={classes.Divider}/>
             <h1 className={classes.heading}>About Me</h1>
             <Divider className={classes.Divider}/>
@@ -140,7 +140,9 @@ export default function AboutMe() {
             while in school for two semesters.</h2>
             <h2 className={classes.Typography}>TO BE CONTINUED...</h2>
             
-
+        */}
         </div>
+        
     )
 }
+
