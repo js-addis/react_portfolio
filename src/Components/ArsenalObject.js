@@ -1,6 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import { Tooltip, Container, Modal, Divider, Typography, Button, CardMedia, CardContent, CardActions, CardActionArea, Card } from '@material-ui/core';
+import { Tooltip, Typography, CardMedia, CardContent, Card } from '@material-ui/core';
 
 const useStyles = makeStyles({
     root: {

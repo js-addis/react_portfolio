@@ -35,15 +35,7 @@ export default function Projects() {
     return (
         <Container className={classes.root} maxWidth={"xl"} spacing={5}>
             <h3 className={classes.h3}>Click a project for more info:</h3>
-            <ImgMediaCard
-                image={<Logo/>}
-                projectName={'Barbersharp App (new)'}
-                description={'Building a Flutter App for making barbershop appointments. This is my first project as a part of my new Boss Ansen Ervins team. The app will ultimately be used to create a template app that can be easily customized for multiple barbershop companies.'}
-                action1={'https://github.com/js-addis/barbersharp'}
-                action2={null}
-                modalContent={<Logo/>}
-                url={"https://github.com/js-addis/barbersharp"}
-            ></ImgMediaCard>
+            
             <ImgMediaCard
                 image={<Logo/>}
                 projectName={'Flutter App (new)'}
