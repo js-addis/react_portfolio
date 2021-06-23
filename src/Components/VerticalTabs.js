@@ -58,7 +58,7 @@ export default function VerticalTabs(props) {
   const classes = useStyles();
   const [value, setValue] = React.useState(0);
 
-  const handleAboutMeButton = props.handleAboutMeButton;
+  
   const handleProjectsButton = props.handleProjectsButton;
   const handleContactButton = props.handleContactButton;
 
@@ -77,8 +77,6 @@ export default function VerticalTabs(props) {
         className={classes.tabs}
       >
         <Tab label="Projects" {...a11yProps(0)} onClick={handleProjectsButton}/>
-        <Divider  className={classes.divider}/>
-        <Tab label="About Me" {...a11yProps(1)} onClick={handleAboutMeButton}/>
         <Divider  className={classes.divider}/>
         <Tab label="MUI Theme" {...a11yProps(2)} onClick={null}/>
         <Divider  className={classes.divider}/>
