@@ -35,7 +35,15 @@ export default function Projects() {
     return (
         <Container className={classes.root} maxWidth={"xl"} spacing={5}>
             <h3 className={classes.h3}>Click a project for more info:</h3>
-            
+            <ImgMediaCard
+                image={<Logo/>}
+                projectName={"Jamaal's Portfolio"}
+                description={"I am currently building a personal website for a student and friend. It's built with React, Material UI and AWS Amplify. I've learned alot about front-end design in the process of making this."}
+                action1={'https://github.com/js-addis/mali-portfolio'}
+                action2={null}
+                modalContent={<Logo/>}
+                url={"https://github.com/js-addis/mali-portfolio"}
+            ></ImgMediaCard>
             <ImgMediaCard
                 image={<Logo/>}
                 projectName={'Flutter App (new)'}
