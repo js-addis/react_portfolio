@@ -46,15 +46,6 @@ export default function Projects() {
             ></ImgMediaCard>
             <ImgMediaCard
                 image={<Logo/>}
-                projectName={'Flutter App (new)'}
-                description={'Currently learning Flutter, a Dart language framework for building cross-platform mobile apps that are also websites! I recently started working with someone remotely, and he wants to use Flutter instead of React for some/most of his apps. I agree and believe this framework by Google has ALOT of potential!'}
-                action1={'https://github.com/js-addis/flutter_app'}
-                action2={null}
-                modalContent={<Logo/>}
-                url={"https://github.com/js-addis/flutter_app"}
-            ></ImgMediaCard>
-            <ImgMediaCard
-                image={<Logo/>}
                 projectName={'React Native App (new)'}
                 description={'Currently building a react-native mobile app through a course with LinkedIn Learning. I have the node react server running locally and connecting to it with repo, viewing my changes on my own android phone. This has been very fun and educational for me.'}
                 action1={'https://github.com/js-addis/react-native-app'}
