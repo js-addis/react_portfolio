@@ -45,7 +45,7 @@ export default function SimpleBottomNavigation() {
 
   return (
     <Container className={classes.root}>
-      <GitHubIcon className={classes.icon} onClick={()=> window.open("https://github.com/js-addis", "_blank")}/> <FacebookIcon className={classes.icon} onClick={()=> window.open("https://facebook.com/jacob.addis.351/", "_blank")}/> <LinkedInIcon className={classes.icon} onClick={()=> window.open("https://www.linkedin.com/in/jacob-addis-11955414a/")}/>
+      <GitHubIcon className={classes.icon} onClick={()=> window.open("https://github.com/js-addis", "_blank")}/><LinkedInIcon className={classes.icon} onClick={()=> window.open("https://www.linkedin.com/in/jacob-addis-11955414a/")}/>
     </Container>
   );
 }
